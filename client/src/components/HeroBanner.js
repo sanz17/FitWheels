@@ -3,6 +3,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Link, useLocation } from "react-router-dom";
 import { Box, Stack, Typography, Button } from '@mui/material';
 import HeroBannerImage from '../assets/images/banner.jpg';
+import Wheels from '../assets/images/wheels.jpg'
 
 const HeroBanner = () => {
   return (
@@ -26,15 +27,21 @@ const HeroBanner = () => {
         />
       </Box>
       <Box flex="1">
-        <Typography color="FF2625" fontWeight="600" fontSize={{ lg: '26px', xs: '22px' }}> 
-          Fitness tracker
-        </Typography>
-        <Typography fontWeight={700} sx={{ fontSize: { lg: '44px', xs: '32px' } }}>
-          Come! Lets achieve <br /> all of our <br /> fitness dreams.
+        
+        <Typography fontWeight={700} sx={{ fontSize: { lg: '40px', xs: '32px' } }}>
+          Come! Lets achieve <br /> all of our <br /> fitness and driving dreams.
         </Typography>
         <Button variant="dark" component={Link} to="../pages/features" style={{'fontSize':'20px'}}>
           What we offer &nbsp; &nbsp; <ArrowRightCircle size={35} />
         </Button>
+      </Box>
+      <Box flex="1">
+        <img
+          src={Wheels}
+          alt="banner"
+          className="img-fluid"
+          style={{ maxWidth: '100%','borderRadius':'10px' }}
+        />
       </Box>
       
     </Box>
