@@ -38,7 +38,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/sanz17">
-                    Team Fitness tracker
+                    Sanz
                 </a>
                 . Made with {' '}
                 <a
