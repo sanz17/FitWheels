@@ -40,7 +40,7 @@ const Footer = () => {
                     href="https://github.com/sanz17">
                     Sanz
                 </a>
-                . Made with {' '}
+                ,with {' '}
                 <a
                     style={{ 'textDecoration': 'none', 'color': '#595959', 'fontWeight': 'bolder' }}
                     target="_blank"
